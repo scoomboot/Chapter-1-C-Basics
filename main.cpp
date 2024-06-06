@@ -2,15 +2,10 @@
 
 int main()
 {
+	//1.4
 
-	std::cout << "This is a statement!\n";// This is a single line comment.
-
-	/* 
-		This is a
-		Multi-line
-		comment.
-	
-	*/
+	int width; // My first variable yay!
+	width = 5; // assigned value of 5 into a variable yay!
 
 	return 0;
 }
