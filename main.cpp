@@ -4,15 +4,9 @@ int main()
 {
 	//1.5
 
-	int width{};
-	int length{};
+	int x; // This is an uninitialized vairable, we have not given it a value.
 
-	std::cout << "Enter the width.\n";
-	std::cin >> width;
-	std::cout << "Enter the length.\n";
-	std::cin >> length;
-
-	std::cout << "The area of your rectangle is: " << length * width << "\n";
+	std::cout << x; // this will give an error "uninitialized local variable"s
 
 	return 0;
 }
