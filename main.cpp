@@ -2,23 +2,17 @@
 
 int main()
 {
-	//1.9
+	//1.10 — Introduction to expressions
 
-	std::cout << "Hello World! \n";
-	int x{ 5 };
+	int a{ 2 };
+	int b{ 2 + 2 };
+	int c{ (2 * 2) + 2 };
+	int d{ a };
 
-	std::cout << 5 << '\n';
-	std::cout << x << '\n';
-
-	std::cout << x + 5 << '\n';
-
-	int y{ 10 };
-
-	std::cout << x + y << '\n';
-
-	int result{ x + y };
-
-	std::cout << result << '\n';
+	std::cout << a << '\n';
+	std::cout << b << '\n';
+	std::cout << c << '\n';
+	std::cout << d << '\n';
 
 	return 0;
 }
