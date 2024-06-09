@@ -2,20 +2,23 @@
 
 int main()
 {
-	//1.7
+	//1.9
 
+	std::cout << "Hello World! \n";
+	int x{ 5 };
 
-	int my_variable_name;   // conventional (separated by underscores/snake_case)
-	int my_function_name(); // conventional (separated by underscores/snake_case)
+	std::cout << 5 << '\n';
+	std::cout << x << '\n';
 
-	int myVariableName;     // conventional (intercapped/camelCase)
-	int myFunctionName();   // conventional (intercapped/camelCase)
+	std::cout << x + 5 << '\n';
 
-	int my variable name;   // invalid (whitespace not allowed)
-	int my function name(); // invalid (whitespace not allowed)
+	int y{ 10 };
 
-	int MyVariableName;     // unconventional (should start with lower case letter)
-	int MyFunctionName();   // unconventional (should start with lower case letter)
+	std::cout << x + y << '\n';
+
+	int result{ x + y };
+
+	std::cout << result << '\n';
 
 	return 0;
 }
